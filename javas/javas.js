@@ -28,3 +28,5 @@ switch(yaz){
     default:
         alert("Lütfen Geçerli Bir Sıra Seç!!!");
 }
+
+
