@@ -66,3 +66,26 @@ console.log(user);
 *   }
 *   func()
 */
+
+let not = 15
+
+if(not>50){
+console.log("Geçtiniz, notunuz: " + not);
+}
+else{
+console.log("Kaldınız, notunuz: " + not);
+}
+
+
+let vize1 = Number(prompt("Vize 1 Notunuzu Giriniz."));
+let vize2 = Number(prompt("Vize 2 Notunuzu Giriniz."));
+let final = Number(prompt("Final Notunuzu Giriniz."));
+
+let ort = vize1*0.3 + vize2*0.3 + final*0.4
+
+if(ort>50){
+alert("Dersten Geçtiniz Tebrikler :) " + "Notunuz: " + ort);
+
+}else{
+alert("Dersten Kaldınız, Geçmiş Olsun :( " + "Notunuz: " + ort);
+}
