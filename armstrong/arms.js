@@ -6,7 +6,7 @@ let rakam = sayi.charAt(i);
 toplam+=rakam*rakam*rakam;
 }
 
-if(Number(sayi)==toplam){
+if((sayi)==toplam){
     alert("Armstrong Sayısıdır.")
 }else{
     alert("Armstrong Sayısı Değildir.")

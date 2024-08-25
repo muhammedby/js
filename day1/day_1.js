@@ -36,7 +36,7 @@ console.warn("Hata!");
 // ?let değişken, const sabit
 
 const user = {
-username: "batuk",
+username: "batu",
 password: "1923"
 }
 
