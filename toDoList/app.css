@@ -1,0 +1,93 @@
+/* Genel Ayarlar */
+html, body {
+    height: 100%; /* Sayfanın tamamını kapsaması için */
+    background-color: #1e1e2f; /* Koyu arka plan */
+    color: #ffffff; /* Beyaz yazı rengi */
+    font-family: 'Arial', sans-serif; /* Daha modern bir yazı tipi */
+    margin: 0; /* Varsayılan margin'leri sıfırlar */
+    padding: 0; /* Varsayılan padding'leri sıfırlar */
+}
+
+/* Kart ve Form Tasarımı */
+.card {
+    background-color: #2c2c3e; /* Koyu kart arka planı */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge efekti */
+}
+
+.card-header {
+    background-color: #3a3a52; /* Başlık arka planı */
+    color: #ffffff;
+    border-bottom: 2px solid #4c4c6d; /* Alt sınır efekti */
+}
+
+/* Input Alanları */
+.form-control {
+    background-color: #2c2c3e;
+    color: #ffffff;
+    border: 1px solid #4c4c6d;
+}
+
+.form-control:focus {
+    background-color: #353547;
+    color: #ffffff;
+    border: 1px solid #6c63ff; /* Odaklanınca mor vurgulu sınır */
+    box-shadow: none;
+}
+
+/* Butonlar */
+button, a.btn {
+    background-color: #6c63ff !important; /* Mor buton rengi */
+    border: none !important;
+    color: #ffffff !important;
+    transition: background-color 0.3s ease !important;
+}
+
+button:hover, a.btn:hover {
+    background-color: #514bcf !important; /* Hover efekti için daha koyu mor */
+}
+
+/* Liste Elemanları */
+.list-group-item {
+    background-color: #2c2c3e; /* Liste elemanlarının arka planı */
+    color: #ffffff;
+    border: 1px solid #4c4c6d;
+}
+
+.list-group-item .delete-item i {
+    color: #ff6b6b; /* Silme ikonuna kırmızı renk */
+    transition: color 0.3s ease;
+}
+
+.list-group-item .delete-item i:hover {
+    color: #ff4747; /* Hover efekti için daha koyu kırmızı */
+}
+
+/* Uyarı Mesajları */
+.alert {
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.alert-success {
+    background-color: #4caf50; /* Başarı yeşili */
+    color: #ffffff;
+}
+
+.alert-danger {
+    background-color: #f44336; /* Hata kırmızısı */
+    color: #ffffff;
+}
+
+.alert-warning {
+    background-color: #ff9800; /* Uyarı turuncusu */
+    color: #ffffff;
+}
+
+/* Container Ayarları */
+.container {
+    background-color: #1e1e2f; /* Sayfa ile uyumlu arka plan rengi */
+    padding: 20px;
+    min-height: 100vh; /* Sayfanın tamamını kapsaması için */
+}
